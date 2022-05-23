@@ -17,7 +17,7 @@ export const portfolio = [
         desc:"react, next, bootstrap",
         date:"2022",
         code:"https://github.com/noureba/ecommerce",
-        demo:""
+        demo:"https://noureba.github.io/dashboard/"
     },
     {
         id: "3",

@@ -31,38 +31,38 @@ function Contact() {
       <h1 className="my-3">Contact</h1>
       <div className="contactUs">
         <div className="info">
-            <a>
+            <a className="link">
               <i>
                 <MdLocationPin />
               </i>
               Agadir, Souss-Massa, Morocco
             </a>
-            <a href="tel:212680735078">
+            <a href="tel:212680735078" className="link">
               <i>
                 <AiFillPhone />
               </i>
               +212680735078
             </a>
 
-            <a href="mailto:nourddinebachikh@gmail.com">
+            <a href="mailto:nourddinebachikh@gmail.com" className="link">
               <i>
                 <AiTwotoneMail />
               </i>
               noureddine@bachikh.com
             </a>
-            <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank">
+            <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank" className="link">
               <i>
                 <AiFillLinkedin />
               </i>
               linkedin
             </a>
-            <a href="https://github.com/noureba" target="_blank">
+            <a href="https://github.com/noureba" target="_blank" className="link">
               <i>
                 <AiFillGithub />
               </i>
               Github
             </a>
-            <a href="https://twitter.com/NBachikh" target="_blank">
+            <a href="https://twitter.com/NBachikh" target="_blank" className="link">
               <i>
                 <AiFillTwitterCircle />
               </i>
