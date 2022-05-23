@@ -18,7 +18,7 @@ function SideBar() {
       <div className="p-4">
         <Image
           className="rounded-circle text-center overflow-hidden animate__bounce99i"
-          src="https://res.cloudinary.com/dia3y316g/image/upload/v1653317102/20211230_181518-removebg_p2zksb.png"
+          src="https://res.cloudinary.com/dia3y316g/image/upload/v1653317276/20211230_181518-removebg_fvf6ng.jpg"
           alt="profil"
           width="200"
           height="200"
