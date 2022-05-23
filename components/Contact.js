@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { MdLocationPin } from "react-icons/md";
 import  AOS  from "aos";
+import linkStyle from '../styles/css/links.module.css'
 
 
 function Contact() {
@@ -31,38 +32,38 @@ function Contact() {
       <h1 className="my-3">Contact</h1>
       <div className="contactUs">
         <div className="info">
-            <a className="link">
+            <a className={`${linkStyle.link}`}>
               <i>
                 <MdLocationPin />
               </i>
               Agadir, Souss-Massa, Morocco
             </a>
-            <a href="tel:212680735078" className="link">
+            <a href="tel:212680735078" className={`${linkStyle.link}`}>
               <i>
                 <AiFillPhone />
               </i>
               +212680735078
             </a>
 
-            <a href="mailto:nourddinebachikh@gmail.com" className="link">
+            <a href="mailto:nourddinebachikh@gmail.com" className={`${linkStyle.link}`}>
               <i>
                 <AiTwotoneMail />
               </i>
               noureddine@bachikh.com
             </a>
-            <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank" className="link">
+            <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank" className={`${linkStyle.link}`}>
               <i>
                 <AiFillLinkedin />
               </i>
               linkedin
             </a>
-            <a href="https://github.com/noureba" target="_blank" className="link">
+            <a href="https://github.com/noureba" target="_blank" className={`${linkStyle.link}`}>
               <i>
                 <AiFillGithub />
               </i>
               Github
             </a>
-            <a href="https://twitter.com/NBachikh" target="_blank" className="link">
+            <a href="https://twitter.com/NBachikh" target="_blank" className={`${linkStyle.link}`}>
               <i>
                 <AiFillTwitterCircle />
               </i>

@@ -25,6 +25,14 @@
   color: white !important;
 }
 
+.link {
+  text-decoration: none !important;
+  color: white !important;
+}
+.link:hover {
+  color: #30CB0E !important;
+}
+
 .social {
   font-size: 35px;
   margin: 10px;
@@ -36,23 +44,19 @@
 }
 
 .buttons {
+  color: black;
+  text-decoration: none;
   background-color: #30CB0E;
   border: 1px solid #30CB0E;
   padding: 10px 20px;
   font-size: 1rem;
   margin: 20px 0;
-}
-.buttons a {
-  color: black;
   text-decoration: none;
 }
 .buttons:hover {
   color: #30CB0E;
   background-color: black;
   border: 1px solid #30CB0E;
-}
-.buttons:hover a {
-  color: white;
 }
 
 /*# sourceMappingURL=links.module.css.map */

@@ -7,11 +7,6 @@
   scroll-behavior: smooth;
 }
 
-link {
-  text-decoration: none !important;
-  color: #020202 !important;
-}
-
 .layout {
   background-color: #1a1a1a;
   max-width: 1300px;
@@ -83,6 +78,7 @@ link {
 }
 .home button a {
   color: black;
+  text-decoration: none;
 }
 .home button:hover {
   color: #30CB0E;
@@ -115,7 +111,7 @@ link {
   position: relative;
 }
 .Certifications div {
-  min-height: 250px;
+  min-height: 300px;
   max-width: 300px;
   margin: 5px;
 }
@@ -255,6 +251,7 @@ link {
   .Certifications div {
     max-width: 100%;
     margin: 5px;
+    min-height: 200px;
   }
 
   .skils {
