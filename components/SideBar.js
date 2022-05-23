@@ -11,7 +11,7 @@ function SideBar() {
     setState(!state)
   }
   return (
-    <div className={`sideBar ${state? "show" : ""}`}>
+    <div className={`sideBar ${state? "show" : ""} sideBar`}>
       <div className="bar" onClick={handel}>
         <i>{state ? <AiFillCloseCircle/>:<AiOutlineBars/>}</i>
       </div>
@@ -24,7 +24,7 @@ function SideBar() {
           height="200"
         />
       </div>
-      <div className="d-flex flex-column">
+      <div className="d-flex flex-column menu">
           <a  href="#home" className={linkStyle.links} onClick={handel}><i><AiFillHome/></i>Home</a>
           <a href="#about" className={linkStyle.links} onClick={handel}><i><FcAbout/></i>About Me</a>
           <a  href="#skils" className={linkStyle.links} onClick={handel}><i><GiSkills/></i>Skils</a>
