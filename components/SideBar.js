@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import Image from "next/image";
-import Profile from "../img/profil.png";
 import {AiFillLinkedin,AiFillCloseCircle, AiOutlineBars, AiFillGithub, AiFillTwitterCircle, AiTwotoneMail, AiFillHome, AiFillProject, AiFillPhone} from 'react-icons/ai'
 import {GiSkills} from "react-icons/gi"
 import {FcAbout} from 'react-icons/fc'
@@ -19,7 +18,7 @@ function SideBar() {
       <div className="p-4">
         <Image
           className="rounded-circle text-center overflow-hidden animate__bounce99i"
-          src={Profile}
+          src="https://res.cloudinary.com/dia3y316g/image/upload/v1653317102/20211230_181518-removebg_p2zksb.png"
           alt="profil"
           width="200"
           height="200"
