@@ -11,7 +11,7 @@ function Certifications() {
     })
   })
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" >
       <h1 className="my-3">Certifications</h1>
       <div className="Certifications">
         {Certifi.map((Element) => (
@@ -20,8 +20,8 @@ function Certifications() {
               <Image
                 src={Element.image}
                 className="card-img-top"
-                width="600"
-                height="400"
+                width="300"
+                height="250"
                 alt={Element.alt}
               />
               <div className="card-body">

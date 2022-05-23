@@ -1,29 +1,33 @@
 export const portfolio = [
     {
         id: "1",
-        title: "HTML, CSS, and Javascript for Web Developers",
-        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1652699184/coursera.org_1_kfvkfh.png",
-        alt :"HTML, CSS, and Javascript for Web Developers",
-        from:"Course | Johns Hopkins University",
+        title: "Coach",
+        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1653303921/coach_m215li.png",
+        alt :"Coach",
+        desc:"react, next, bootstrap",
         date:"2022",
-        src:"https://www.coursera.org/account/accomplishments/certificate/GS9AWGJFLPKB"
+        code:"https://github.com/noureba/coach",
+        demo:""
     },
     {
         id: "2",
-        title: "Front-End Web Development with React",
-        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1652699185/coursera.org_3_qiuvr9.png",
-        alt :"Front-End Web Development with React",
-        from:"Course | The Hong Kong University of Science and Technology",
+        title: "Ecommerce",
+        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1653303909/ecommerce_aafdp2.png",
+        alt :"Coach",
+        desc:"react, next, bootstrap",
         date:"2022",
-        src: "https://www.coursera.org/account/accomplishments/certificate/Y8ZXDJPDM3KQ"
+        code:"https://github.com/noureba/ecommerce",
+        demo:""
     },
     {
         id: "3",
-        title: "Server-side Development with NodeJS, Express and MongoDB",
-        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1652699186/coursera.org_2_vtweum.png",
-        alt :"Server-side Development with NodeJS, Express and MongoDB",
-        from:"Course | The Hong Kong University of Science and Technology",
+        title: "Dashboard",
+        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1653303904/dashboard_shqsrh.png",
+        alt :"Coach",
+        desc:"react, bootstrap, chartjs",
         date:"2022",
-        src:"https://www.coursera.org/account/accomplishments/certificate/29TQAVCWHPX7"
-    }
+        code:"https://github.com/noureba/dashboard",
+        demo:""
+    },
+
 ]

@@ -32,4 +32,23 @@
   color: #30CB0E;
 }
 
+.buttons {
+  background-color: #30CB0E;
+  border: 1px solid #30CB0E;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+.buttons a {
+  color: black;
+}
+.buttons:hover {
+  color: #30CB0E;
+  background-color: black;
+  border: 1px solid #30CB0E;
+}
+.buttons:hover a {
+  color: white;
+}
+
 /*# sourceMappingURL=links.module.css.map */

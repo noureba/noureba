@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { portfolio } from "../data/Portfolio";
 import Image from "next/image";
-import Link from "next/link";
 import AOS from "aos";
+import buttonStyle from "../styles/css/links.module.css"
 
 function Portfolio() {
   useEffect(() => {
@@ -14,25 +14,19 @@ function Portfolio() {
 
   return (
     <div className="portfolio" data-aos="fade-up" id="portfolio">
-      <h1 className="my-3">Portfolio</h1>
-      <div >
+      <h1 className="py-3">Portfolio</h1>
+      <div className="port">
         {portfolio.map((Element) => (
-          <div key={Element.id}>
-            <figure class="imghvr-push-up">
-              <Image src={Element.image} width="300" height="250" />
-              <figcaption>
-                <p>{Element.title}</p>
-                <p>{Element.desc}</p>
-                <div>
-                  <Link href="#">Demo</Link>
-                  <Link href="#">Code</Link>
-                </div>
-                <div></div>
-              </figcaption>
-              <a href="http://www.imagehover.io"></a>
-            </figure>
+          <div className="card" key={Element.id} style={{width:"200"}}>
+          <img src={Element.image} className="card-img-top" alt={Element.alt}/>
+          <div className="card-body">
+            <h5 className="card-title">{Element.title}</h5>
+            <p className="card-text">{Element.desc}</p>
+            <a href={Element.code} class={`${buttonStyle.buttons}`}>Code</a>
           </div>
+        </div>
         ))}
+       
       </div>
     </div>
   );

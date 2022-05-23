@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import Link from "next/link";
 function Home() {
   useEffect(() => {
     AOS.init({
@@ -21,12 +20,7 @@ function Home() {
         links to websites and applications I’ve had the honor of working on.
       </p>
       <button data-aos="fade-left">
-        <Link
-          href="https://drive.google.com/file/d/136Jb5zUvuGomjePx2tmHDA5Yqptz35_C/view"
-          passHref
-        >
-          <a target="_blank">Download My Resume</a>
-        </Link>
+          <a href="https://drive.google.com/file/d/136Jb5zUvuGomjePx2tmHDA5Yqptz35_C/view" target="_blank">Download My Resume</a>
       </button>
     </div>
   );

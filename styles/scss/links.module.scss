@@ -34,7 +34,25 @@
         color: $primary_color;
     }
 }
-  
+
+.buttons {
+    background-color: $primary_color;
+    border: 1px solid $primary_color;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    a{
+      color: black;
+    }
+    &:hover {
+      color: $primary_color;
+      background-color: black;
+      border: 1px solid $primary_color;
+      a{
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
   
   
   

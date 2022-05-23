@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Epilogue", sans-serif;
   scroll-behavior: smooth;
-  transition: 0.5s all;
 }
 a {
   text-decoration: none;
@@ -27,6 +26,7 @@ a {
   color : black;
   z-index: 9999;
   padding: 10px;
+  transition: 0.5s all;
 
   .bar{
     position: absolute;
@@ -127,7 +127,7 @@ a {
   }
 }
 .skils {
-
+  height: 100vh;
   padding: 10px;
   h1{
     color: $primary_color;
@@ -137,6 +137,8 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
     div{
       border: 1px solid gray;
       width: 100px;
@@ -150,23 +152,29 @@ a {
   }
 }
 .portfolio{
-
   padding: 10px;
+  color: black;
+  height: 100vh;
+
   h1{
     color: $primary_color;
     text-decoration: underline;
   }
-  div{
+  .port{
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
     div{
-      margin: 10px;
+      margin: 5px;
+      width: 300px;
     }
   }
 }
 .contact{
   padding: 10px;
+  height: 100vh;
   h1{
     color:$primary_color;
     text-decoration: underline;
@@ -218,9 +226,7 @@ a {
     }
   }
 }
-.test {
-  border: 1px solid red;
-}
+
 @media(max-width : 900px){
   .sideBar{
     transform: 0.3s all;
@@ -236,12 +242,33 @@ a {
     margin: 0;
   }
   .Certifications{
+    height: 100%;
     div{
       max-width: 100%;
-      margin: 10px
+      margin: 5px
     }
   }
+  .skils {
+    height: 100%;
+    .Myskils{
+      justify-content: center;
+      div{
+        margin: 5px;
+      }
+    }
+  }
+  .portfolio{
+    height: 100%;
+    .port{
+      div{
+        width:100% !important;
+        margin: 5px;
+      }
+    }
+
+  }
   .contact{
+    height: 100%;
     .contactUs{
       justify-content: start;
       align-items: flex-start;

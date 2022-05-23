@@ -1,6 +1,5 @@
 import React , {useEffect}from "react";
 import { useForm } from "react-hook-form";
-import Link from "next/link";
 import {
   AiFillPhone,
   AiTwotoneMail,
@@ -32,55 +31,43 @@ function Contact() {
       <h1 className="my-3">Contact</h1>
       <div className="contactUs">
         <div className="info">
-          <Link href="" passHref>
             <a>
               <i>
                 <MdLocationPin />
               </i>
               Agadir, Souss-Massa, Morocco
             </a>
-          </Link>
-          <Link href="tel:212680735078" passHref>
-            <a>
+            <a href="tel:212680735078">
               <i>
                 <AiFillPhone />
               </i>
               +212680735078
             </a>
-          </Link>
 
-          <Link href="mailto:nourddinebachikh@gmail.com" passHref>
-            <a >
+            <a href="mailto:nourddinebachikh@gmail.com">
               <i>
                 <AiTwotoneMail />
               </i>
               noureddine@bachikh.com
             </a>
-          </Link>
-          <Link href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" passHref>
-            <a target="_blank">
+            <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank">
               <i>
                 <AiFillLinkedin />
               </i>
               linkedin
             </a>
-          </Link>
-          <Link href="https://github.com/noureba" passHref>
-            <a target="_blank">
+            <a href="https://github.com/noureba" target="_blank">
               <i>
                 <AiFillGithub />
               </i>
               Github
             </a>
-          </Link>
-          <Link href="https://twitter.com/NBachikh" passHref>
-            <a target="_blank">
+            <a href="https://twitter.com/NBachikh" target="_blank">
               <i>
                 <AiFillTwitterCircle />
               </i>
               Twitter
             </a>
-          </Link>
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
