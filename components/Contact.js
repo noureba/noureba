@@ -38,18 +38,18 @@ function Contact() {
               </i>
               Agadir, Souss-Massa, Morocco
             </a>
-            <a href="tel:212680735078" className={`${linkStyle.link}`}>
+            <a href="tel:+212680735078" className={`${linkStyle.link}`}>
               <i>
                 <AiFillPhone />
               </i>
               +212680735078
             </a>
 
-            <a href="mailto:nourddinebachikh@gmail.com" className={`${linkStyle.link}`}>
+            <a href="mailto:noreddinebachikh@gmail.com" className={`${linkStyle.link}`}>
               <i>
                 <AiTwotoneMail />
               </i>
-              noureddine@bachikh.com
+              noreddinebachikh@gmail.com
             </a>
             <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank" className={`${linkStyle.link}`}>
               <i>

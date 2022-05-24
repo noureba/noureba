@@ -35,7 +35,7 @@ function SideBar() {
           <a href="https://www.linkedin.com/in/noureddine-bachikh-0aa681224/" target="_blank"><i className={linkStyle.social}><AiFillLinkedin/></i></a>
           <a href="https://github.com/noureba" target="_blank"><i className={linkStyle.social}><AiFillGithub/></i></a>
           <a href="https://twitter.com/NBachikh" target="_blank"><i className={linkStyle.social}><AiFillTwitterCircle/></i></a>
-          <a href="mailto:nourddinebachikh@gmail.com" target="_blank"><i className={linkStyle.social}><AiTwotoneMail/></i></a>
+          <a href="mailto:noreddinebachikh@gmail.com" target="_blank"><i className={linkStyle.social}><AiTwotoneMail/></i></a>
       </div>
     </div>
   );
