@@ -20,7 +20,7 @@ function Home() {
         links to websites and applications I’ve had the honor of working on.
       </p>
       <button data-aos="fade-left">
-          <a href="https://drive.google.com/file/d/136Jb5zUvuGomjePx2tmHDA5Yqptz35_C/view" target="_blank">Download My Resume</a>
+          <a href="https://drive.google.com/file/d/1ZmS1Q0XfIT-A7uJUAIixIKI0mE1tpujq/view?usp=sharing" target="_blank">Download My Resume</a>
       </button>
     </div>
   );
