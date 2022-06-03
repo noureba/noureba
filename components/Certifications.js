@@ -22,7 +22,7 @@ function Certifications() {
                 src={Element.image}
                 className="card-img-top"
                 width="300"
-                height="250"
+                height="200"
                 alt={Element.alt}
               />
               <div className="card-body">

@@ -65,6 +65,7 @@
   font-size: 4rem;
   margin: 20px 0;
   word-wrap: break-word;
+  margin-top: 70px;
 }
 .home p {
   margin: 20px 0;
@@ -111,7 +112,7 @@
   position: relative;
 }
 .Certifications div {
-  min-height: 300px;
+  min-height: 270px;
   max-width: 300px;
   margin: 5px;
 }
@@ -146,14 +147,14 @@
   align-items: center;
 }
 .skils .Myskils div {
-  border: 1px solid gray;
+  border: 2px solid gray;
   width: 100px;
   margin: 10px;
   padding: 10px;
+  background-color: #d4d4d4;
 }
 .skils .Myskils div:hover {
-  background-color: #0c0c0c;
-  border: 1px solid #30CB0E;
+  border: 5px solid #30CB0E;
 }
 
 .portfolio {
@@ -173,7 +174,7 @@
 }
 .portfolio .port div {
   margin: 5px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .contact {
@@ -200,6 +201,9 @@
   width: 500px;
   margin: 10px;
   padding: 10px;
+  outline: none;
+  background-color: white;
+  color: #333333;
 }
 .contact .contactUs form .button {
   background-color: #30CB0E;
@@ -251,7 +255,7 @@
   .Certifications div {
     max-width: 100%;
     margin: 5px;
-    min-height: 200px;
+    min-height: 250px;
   }
 
   .skils {

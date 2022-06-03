@@ -74,4 +74,14 @@ export const skils = [
         image: "https://res.cloudinary.com/dia3y316g/image/upload/v1652701374/skilsIcons/vs_code_ir3dvz.png",
         title: "VS Code"
     }
+    ,{
+        id:"19",
+        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1654273455/skilsIcons/parcel_aywcmy.png",
+        title: "parcel"
+    },
+    {
+        id:"20",
+        image: "https://res.cloudinary.com/dia3y316g/image/upload/v1654273455/skilsIcons/dlf.pt-mongodb-png-2367703_dlbbzp.png",
+        title: "mongodb"
+    }
 ]

@@ -26,7 +26,7 @@ function SideBar() {
       </div>
       <div className="d-flex flex-column menu">
           <a  href="#home" className={linkStyle.links} onClick={handel}><i><AiFillHome/></i>Home</a>
-          <a href="#about" className={linkStyle.links} onClick={handel}><i><FcAbout/></i>About Me</a>
+          <a href="#Certifications" className={linkStyle.links} onClick={handel}><i><FcAbout/></i>Certifications</a>
           <a  href="#skils" className={linkStyle.links} onClick={handel}><i><GiSkills/></i>Skils</a>
           <a href="#portfolio" className={linkStyle.links} onClick={handel}><i><AiFillProject/></i>Portfolio</a>
           <a href="#contact" className={linkStyle.links} onClick={handel}><i><AiFillPhone/></i>Contact Me</a>

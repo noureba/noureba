@@ -38,11 +38,11 @@ function Contact() {
               </i>
               Agadir, Souss-Massa, Morocco
             </a>
-            <a href="tel:+212680735078" className={`${linkStyle.link}`}>
+            <a href="tel:+212682435078" className={`${linkStyle.link}`}>
               <i>
                 <AiFillPhone />
               </i>
-              +212680735078
+              +212682435078
             </a>
 
             <a href="mailto:noreddinebachikh@gmail.com" className={`${linkStyle.link}`}>

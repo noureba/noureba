@@ -22,9 +22,9 @@ function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">{Element.title}</h5>
             <p className="card-text">{Element.desc}</p>
-            <div className="d-flex flex-row">
-            <a target="_blank" href={Element.demo} className={`${buttonStyle.buttons} mx-2 link`}>Demo</a>
-            <a target="_blank" href={Element.code} className={`${buttonStyle.buttons} mx-5 link`}>Code</a>
+            <div className="d-flex flex-row justify-content-between align-item-center">
+            <a target="_blank" href={Element.demo} className={`${buttonStyle.buttons} `}>Demo</a>
+            <a target="_blank" href={Element.code} className={`${buttonStyle.buttons} `}>Code</a>
             </div>
           </div>
         </div>

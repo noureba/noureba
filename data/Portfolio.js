@@ -7,7 +7,7 @@ export const portfolio = [
         desc:"react, next, bootstrap",
         date:"2022",
         code:"https://github.com/noureba/coach",
-        demo:""
+        demo:"https://coach-ashen.vercel.app/"
     },
     {
         id: "2",
@@ -17,7 +17,7 @@ export const portfolio = [
         desc:"react, next, bootstrap",
         date:"2022",
         code:"https://github.com/noureba/ecommerce",
-        demo:"https://noureba.github.io/dashboard/"
+        demo:"https://ecommerce-noureba.vercel.app/"
     },
     {
         id: "3",

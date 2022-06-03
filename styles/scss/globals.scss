@@ -67,6 +67,7 @@
     font-size: 4rem;
     margin: 20px 0;
     word-wrap: break-word;
+    margin-top: 70px;
   }
   p {
     margin: 20px 0;
@@ -114,7 +115,7 @@
   color: black;
   position: relative;
   div {
-    min-height: 300px;
+    min-height: 270px;
     max-width: 300px;
     margin: 5px;
     a {
@@ -147,13 +148,14 @@
     justify-content: start;
     align-items: center;
     div{
-      border: 1px solid gray;
+      border: 2px solid gray;
       width: 100px;
       margin: 10px;
       padding: 10px;
+      background-color: rgb(212, 212, 212);
+
       &:hover{
-        background-color: $background_color2;
-        border: 1px solid $primary_color;
+        border: 5px solid $primary_color;
       }
     }
   }
@@ -174,7 +176,7 @@
     align-items: center;
     div{
       margin: 5px;
-      width: 300px;
+      max-width: 300px;
     }
   }
 }
@@ -199,6 +201,9 @@
         width: 500px;
         margin: 10px;
         padding: 10px;
+        outline: none;
+        background-color: white;
+        color: rgb(51, 51, 51);
       }
       .button {
         background-color: $primary_color;
@@ -251,7 +256,7 @@
     div{
       max-width: 100%;
       margin: 5px;
-      min-height: 200px;
+      min-height: 250px;
     }
   }
   .skils {
